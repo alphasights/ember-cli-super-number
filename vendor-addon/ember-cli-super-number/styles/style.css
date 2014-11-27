@@ -19,3 +19,7 @@
 .super-number a.decrement {
   top: 0;
 }
+
+.super-number a:focus {
+  outline: none;
+};
