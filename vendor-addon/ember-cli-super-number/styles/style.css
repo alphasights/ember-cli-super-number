@@ -3,14 +3,14 @@
 }
 .super-number a.increment,
 .super-number a.decrement {
+  -moz-transition: background linear 0.2;
+  -webkit-transition: background linear 0.2s;
   position: absolute;
-  z-index: 1;
   right: 0;
   text-align: center;
   text-decoration: none;
   transition: background linear 0.2s;
-  -webkit-transition: background linear 0.2s;
-  -moz-transition: background linear 0.2;
+  z-index: 1;
 }
 .super-number a.increment {
   user-select: none;
