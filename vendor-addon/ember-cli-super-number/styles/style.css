@@ -10,13 +10,12 @@
   text-align: center;
   text-decoration: none;
   transition: background linear 0.2s;
+  user-select: none;
   z-index: 1;
 }
 .super-number a.increment {
-  user-select: none;
   bottom: 100%;
 }
 .super-number a.decrement {
-  user-select: none;
   top: 0;
 }
