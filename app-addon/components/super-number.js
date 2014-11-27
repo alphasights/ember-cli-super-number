@@ -5,7 +5,7 @@ var DOWN_ARROW = 40,
     UP_ARROW = 38;
 
 export default Ember.Component.extend({
-  classNames: ["super_number"],
+  classNames: ["super-number"],
   value: null,
   min: null,
   max: null,
