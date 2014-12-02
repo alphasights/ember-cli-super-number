@@ -13,9 +13,11 @@
   user-select: none;
   z-index: 1;
 }
+
 .super-number a.increment {
   bottom: 100%;
 }
+
 .super-number a.decrement {
   top: 0;
 }
