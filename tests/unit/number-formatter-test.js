@@ -1,5 +1,4 @@
-import NumberFormatter from '../../utils/ember-super-number-number-formatter';
-
+import NumberFormatter from 'ember-cli-super-number/utils/ember-super-number-number-formatter';
 
 module('unit:number-formatter:adds');
 

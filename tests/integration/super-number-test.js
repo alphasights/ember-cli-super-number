@@ -1,4 +1,4 @@
-import startApp from "ember-cli-super-number/tests/helpers/start-app";
+import startApp from '../helpers/start-app';
 import Ember from 'ember';
 
 var App;
