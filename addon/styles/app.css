@@ -1,0 +1,28 @@
+.super-number {
+  position: relative;
+}
+.super-number .increment,
+.super-number .decrement {
+  -moz-transition: background linear 0.2;
+  -webkit-transition: background linear 0.2s;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  text-decoration: none;
+  transition: background linear 0.2s;
+  user-select: none;
+  z-index: 1;
+}
+
+.super-number .increment {
+  bottom: 100%;
+}
+
+.super-number .decrement {
+  top: 0;
+}
+
+.super-number .increment:focus,
+.super-number .decrement:focus {
+  outline: none;
+};
